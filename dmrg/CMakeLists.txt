@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.3)
-
-set ( CMAKE_POLICY_DEFAULT_CMP0074 NEW )
-
+cmake_policy(SET CMP0074 NEW)
 ######################################################################
 # Machine Config
 ######################################################################
